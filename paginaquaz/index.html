@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tienda de ropa</title>
+
+    <link rel="stylesheet" href="bootstrap.min.css">
+
+    <style>
+        .carousel-item {
+            height: 330px; }
+        .carousel-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;}
+        .card-img-top {
+            width: 100%;
+            height: 220px;
+            object-fit: contain;
+            padding: 10px;}
+        .info-img {
+            width: 100%;
+            height: 230px;
+            object-fit: contain;}
+
+
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+        <a class="navbar-brand" href="#">PAGINA MIA</a>
+        <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#menu">
+
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+
+
+
+        <div class="collapse navbar-collapse" id="menu">
+
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="#inicio">Inicio</a></li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#ropa">Ropa</a></li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#nosotros">Nosotros</a></li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Contacto</a></li>
+
+            </ul></div></div>
+
+</nav>
+<div id="inicio">
+    <div id="carrusel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/banner1.jpg.webp"
+                    class="d-block w-100"
+                    alt="ropa"></div>
+
+            <div class="carousel-item">
+                <img src="img/banner2.jpg.webp"
+                    class="d-block w-100"
+                    alt="ropa">
+            </div></div>
+
+
+        <button class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carrusel"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+
+        </button>
+
+        <button class="carousel-control-next"
+            type="button"
+            data-bs-target="#carrusel"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button></div></div>
+
+
+<div class="container mt-5">
+<div class="row justify-content-center">
+
+    <div class="col-12 col-md-8">
+        <h1>Nuestra ropa de benito</h1>
+
+        <ul class="list-group mt-3">
+            <li class="list-group-item">Playeras</li>
+            <li class="list-group-item">Sudaderas</li>
+            <li class="list-group-item">Mas playeras jajaja</li>
+            <li class="list-group-item">Nuevos productos</li>
+        </ul>
+    </div>
+</div>
+
+
+
+
+    
+<div class="row" id="ropa">
+    <div class="col-12 col-md-4 mt-5">
+        <div class="card">
+
+            <img src="img/imagen1.jpg.webp"
+                class="card-img-top"
+                alt="playera">
+
+            <div class="card-body">
+                <h5 class="card-title">Playeras</h5>
+                <p class="card-text">
+                    Tenemos diferentes playeras para usar todos
+                    los dias con varios diseños y estilos y se lavan 
+                </p>
+
+                <a href="#" class="btn btn-primary">
+                    Ver más
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-12 col-md-4 mt-5">
+
+        <div class="card">
+
+            <img src="img/imagen2.jpg.webp"
+                class="card-img-top"
+                alt="sudadera">
+
+            <div class="card-body">
+
+                <h5 class="card-title">Sudaderas</h5>
+
+                <p class="card-text">
+                    Tenemos sudaderas comodas para diferentes
+                    ocasiones y con varios estilos y de badbunny el mejor
+                </p>
+
+                <a href="#" class="btn btn-primary">
+                    Ver más
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="col-12 col-md-4 mt-5">
+
+        <div class="card">
+
+            <img src="img/imagen3.jpg.webp"
+                class="card-img-top"
+                alt="pantalon">
+
+            <div class="card-body">
+
+                <h5 class="card-title">Mas playeras jajaja </h5>
+
+                <p class="card-text">
+                    Contamos con diferentes playeras de badbunny para
+                    combinar con las demás :)
+                </p>
+
+                <a href="#" class="btn btn-primary">
+                    Ver más
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div class="row mt-5" id="nosotros">
+
+    <div class="col-12 col-md-9">
+
+        <h2>Sobre nosotros</h2>
+
+        <p>
+            Esta pagina muestra algunos productos de una tienda
+            de ropa y la idea es tener las prendas organizadas
+            para que sea facil encontrar lo que buscamos
+        </p>
+
+        <p>
+            Para realizar la pagina se utilizaron diferentes
+            elementos de Bootstrap como tarjetas, botones,
+            listas, imagenes y un formulario
+        </p>
+
+        <div>
+
+            <button class="btn btn-primary">
+                Productos
+            </button>
+
+            <button class="btn btn-outline-dark">
+                Conocer más
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <div class="col-12 col-md-3 mt-3 mt-md-0">
+
+        <img src="img/info.jpg.webp"
+            class="img-fluid rounded-top info-img"
+            alt="tienda">
+
+    </div>
+
+</div>
+
+<div class="row justify-content-center mt-5 pb-5" id="contacto">
+
+    <div class="col-12 col-md-7">
+
+        <h2>Contacto</h2>
+
+        <form>
+
+            <div class="mb-3">
+
+                <label class="form-label">
+                    Nombre
+                </label>
+
+                <input type="text"
+                    class="form-control"
+                    placeholder="Escribe tu nombre">
+
+            </div>
+
+
+            <div class="mb-3">
+
+                <label class="form-label">
+                    Correo
+                </label>
+
+                <input type="email"
+                    class="form-control"
+                    placeholder="Escribe tu correo">
+
+            </div>
+
+
+            <div class="mb-3">
+
+                <label class="form-label">
+                    Mensaje
+                </label>
+
+                <textarea class="form-control"
+                    rows="4"
+                    placeholder="Escribe tu mensaje"></textarea>
+
+            </div>
+
+
+            <button type="button" class="btn btn-primary">
+                Enviar
+            </button>
+
+        </form>
+
+    </div>
+
+</div>
+
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
